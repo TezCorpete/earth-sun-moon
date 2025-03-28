@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  color: white;
+  text-align:center;
+}
+.name {
+  line-height: 0.2;
+}
+.byline {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1;
+}
+li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+  color:black;
+}
+li {
+  float: left;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: grey;
+  width: 100%;
+  position: justify;
+}
+li a:hover {
+  background-color: lightgrey;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0px rgba(white);
+  transition: 0.3s;
+  background-color: grey;
+  color: black;
+  width: 250px;
+  height: 250%;
+  text-align: center;
+  transform: translate(500px);
+  margin: 100px;
+  border:1px solid white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(white);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.info{
+  float: none;
+  list-style-type:decimal;
+  background:none;
+  text-align: center;
+}
